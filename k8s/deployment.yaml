@@ -1,18 +1,18 @@
 apiVersion: apps/v1                                                       
 kind: Deployment                                                          
 metadata:                                                                 
-  name: Martin-Argo1                                                       
+  name: martin-argo                                                       
   labels:                                                                 
-    app: Martin-Argo1                                                      
+    app: martin-argo                                                      
 spec:                                                                     
   replicas: 2                                                             
   selector:                                                               
     matchLabels:                                                          
-      app: Martin-Argo1                                                    
+      app: martin-argo                                                    
   template:                                                               
     metadata:                                                             
       labels:                                                             
-        app: Martin-Argo1                                                  
+        app: martin-argo                                                  
     spec:                                                                 
       containers:                                                         
         - name: nginx                                                       

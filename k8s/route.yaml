@@ -1,11 +1,11 @@
 apiVersion: route.openshift.io/v1                                         
 kind: Route                                                               
 metadata:                                                                 
-  name: Martin-Argo1                                                       
+  name: martin-argo                                                       
   labels:                                                                 
-    app: Martin-Argo1                                                      
+    app: martin-argo                                                      
 spec:                                                                     
   to:                                                                     
     kind: Service                                                         
-    name: Martin-Argo1                                                     
+    name: martin-argo                                                     
     weight: 100
